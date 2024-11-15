@@ -1,10 +1,7 @@
-// scripts.js
-
-// Function to generate a greeting message
-function generateGreeting(name) {
-  return `Hello, ${name}! Welcome to our website.`;
-}
-
-// Example usage
-const greetingMessage = generateGreeting("Alice");
-console.log(greetingMessage);
+// Seleccionamos el botón por su ID
+const boton = document.getElementById("mi-boton");
+// Agregamos un evento de clic al botón
+boton.addEventListener("click", function () {
+alert("Prácticamente ya sos ingeniero. *** Silicon Valley te
+espera.");
+});
