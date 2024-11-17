@@ -47,3 +47,43 @@ footer {
   width: 100%;
   bottom: 0;
 }
+/* Centrar los títulos */
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+
+/* Enmarcar los párrafos en un rectángulo con borde gris oscuro */
+p {
+  border: 2px solid #333; /* Borde gris oscuro */
+  padding: 10px; /* Espacio interno */
+  margin: 20px; /* Espacio externo */
+  border-radius: 5px; /* Bordes redondeados (opcional) */
+}
+/* Centrar las imágenes */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Estilizar el botón */
+button {
+  display: block;
+  margin: 20px auto; /* Centrar el botón */
+  padding: 15px 30px; /* Hacer el botón más grande */
+  font-size: 16px; /* Aumentar el tamaño del texto */
+  background-color: #4caf50; /* Color de fondo verde */
+  color: yellow; /* Color del texto amarillo */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+  cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+  transition: background-color 0.3s; /* Transición suave para el cambio de color */
+}
+
+/* Cambiar el color de fondo al pasar el cursor sobre el botón */
+button:hover {
+  background-color: #45a049;
+}

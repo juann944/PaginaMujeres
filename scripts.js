@@ -1,6 +1,4 @@
-// Seleccionamos el botón por su ID
-const boton = document.getElementById("mi-boton");
-// Agregamos un evento de clic al botón
-boton.addEventListener("click", function () {
-alert("Prácticamente ya sos ingeniero. *** Silicon Valley te espera.");
+document.getElementById("mi-boton").addEventListener("click", function () {
+  console.log("Botón clicado");
+  window.location.href = "61527609_804.jpg";
 });
